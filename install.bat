@@ -1,2 +1,6 @@
-call "API/Auto Install.bat"
-call "APP/Auto Install.bat"
+cd /d APP
+call "Auto Install.bat"
+cd..
+cd /d API
+call "Auto Install.bat"
+pause
