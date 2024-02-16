@@ -1,1 +1,0 @@
-move /y "Client.js" "node_modules/whatsapp-web.js/src/"
