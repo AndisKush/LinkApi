@@ -11,6 +11,6 @@
     "node-firebird": "^1.0.0",
     "node-windows": "^1.0.0-beta.8",    
     "qrcode": "^1.5.1",
-    "whatsapp-web.js": "github:pedroslopez/whatsapp-web.js#webpack-exodus"
+    "whatsapp-web.js": "^1.26.0"
   }
 }
