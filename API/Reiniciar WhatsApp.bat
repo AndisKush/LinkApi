@@ -1,13 +1,10 @@
 @echo off
-echo Pausing Service...
+echo Pausando Servico...
 net stop Link-Api-WebApi
-
-rmdir /s /q "C:\LinkApi\API\.wwebjs_auth"
-rmdir /s /q "C:\LinkApi\API\.wwebjs_cache"
 
 ping 127.0.0.1 -n 4 > nul
 
-echo Resuming Service...
+echo Iniciando Servico...
 net start Link-Api-WebApi
 
 echo Serviço reiniciado após pausa de 3 segundos.
