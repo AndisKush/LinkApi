@@ -1,6 +1,6 @@
 {
   "name": "linkapiwebapi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "LinkApi WebApi",
   "dependencies": {
     "axios": "^1.2.1",
